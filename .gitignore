@@ -1,1 +1,4 @@
 .idea/*
+.forceignore
+demoSFDX.iml
+README.md
