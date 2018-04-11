@@ -1,0 +1,30 @@
+.THIS .bar-wrapper{
+	border: 1px solid darkgrey;
+	width: 100%;
+	overflow: hidden;
+	background-color: #e8e3e3;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.THIS .withStripes{
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+.THIS .noStripes{
+
+}
+.THIS .inner-bar{
+  border-radius: 0px;
+  height: 100%;
+  color: white;
+  text-align: center;
+
+  -webkit-transition-property: width;
+  -webkit-transition-duration: 1s;
+  transition-property: width;
+  transition-duration: 1s;    
+}
