@@ -4,3 +4,4 @@ demoSFDX.iml
 README.md
 .sfdx/orgs/test-buylvv07xlzp@example.com/metadataTypeInfos.json
 .sfdx/orgs/test-buylvv07xlzp@example.com/sourcePathInfos.json
+*.json
