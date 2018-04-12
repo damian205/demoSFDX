@@ -1,0 +1,16 @@
+<aura:component >
+
+    <aura:attribute name="progress" type="Integer" default="10" />    
+    <aura:attribute name="height" type="Integer" default="20" />    
+    <aura:attribute name="color" type="String" default="#337ab7" />    
+    <aura:attribute name="stripes" type="Boolean" default="true" />    
+
+    <div class="slds">
+        <div class="bar-wrapper" style="{! 'height:' + v.height + 'px'}">
+            <div style="{!'width:' + v.progress + '%; ' + 'background-color:' + v.color + '; height:' + v.height + 'px; ' + 'line-height:' + v.height + 'px'  }" class="{! ( v.stripes ? 'withStripes' : 'noStripes' ) + ' inner-bar'}">
+                <p class="slds-p-horizontal--small">{!v.progress}%</p>
+            </div>
+        </div>
+    </div>    
+   
+</aura:component>
