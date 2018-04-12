@@ -14,48 +14,10 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>cooper:companyInsightTeaserCard</componentName>
-        </componentInstances>
-        <componentInstances>
             <componentName>runtime_sales_merge:mergeCandidatesPreviewCard</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>force:relatedListContainer</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
-                <name>Legend</name>
-                <value>wow this is pretty</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>actualProgress</name>
-                <value>50</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>resultFormat</name>
-                <value>Percentage</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>size</name>
-                <value>small</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>themeAfterThreshold</name>
-                <value>red</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>themeBeforeThreshold</name>
-                <value>green</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>threshold</name>
-                <value>50</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>totalProgress</name>
-                <value>100</value>
-            </componentInstanceProperties>
-            <componentName>lightningProgressBarCircular</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>relatedTabContent</name>
@@ -126,6 +88,41 @@
                 <value>maintabs</value>
             </componentInstanceProperties>
             <componentName>flexipage:tabset</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>Legend</name>
+                <value>wow this is pretty</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>actualProgress</name>
+                <value>50</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>resultFormat</name>
+                <value>Percentage</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>size</name>
+                <value>small</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>themeAfterThreshold</name>
+                <value>red</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>themeBeforeThreshold</name>
+                <value>green</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>threshold</name>
+                <value>50</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>totalProgress</name>
+                <value>100</value>
+            </componentInstanceProperties>
+            <componentName>lightningProgressBarCircular</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>main</name>
